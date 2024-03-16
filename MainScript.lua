@@ -281,9 +281,8 @@ game.Players.PlayerAdded:Connect(function(plr)
 
 end)
 
-wait()
+wait(2)
 
 game.StarterGui:SetCore("SendNotification", {Title = "SystemMessage", Text = "We're Allways using FFS / FastFrame, Security"})
 game.StarterGui:SetCore("SendNotification", {Title = "! VERY VERY IMPORTANT !", Text = "THIS MODULE IS ONLY DETECTS '!AutoSettingBanned player and CustomBanned player is !!! JOINED YOUR SERVER'"})
-task.wait(1)
-game.StarterGui:SetCore("SendNotification", {Title = "- _Custom Banned Players_ -", Text = CustomedBanPlayers})
+game.StarterGui:SetCore("SendNotification", {Title = "", Text = ""})
