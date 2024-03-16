@@ -105,8 +105,6 @@ end)
 
 while wait() do
 	-- Junior moderator
-
-    rs.RenderStepped:Connect(IF_FINDED_KICK)
 	
 	if plrs:FindFirstChild("jams730") or plrs:FindFirstChild("Misk3pt") or plrs:FindFirstChild("RobloxRorge") then
 		plr2:Kick("Junior Moderator Detected.")
